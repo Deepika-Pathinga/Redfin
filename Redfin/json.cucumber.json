@@ -1,0 +1,470 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19360192800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RedfinHooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "UseCase1",
+        "description": "",
+        "id": "redfin-application;usecase1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2177885000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RedfinHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 485650800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the redfin application is launched for \"test1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 40
+                }
+              ],
+              "location": "RedfinStepDefinitions.the_redfin_application_is_launched_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155032900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the home page using homePageTitle",
+            "match": {
+              "location": "RedfinStepDefinitions.verify_the_home_page_using_homePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 458213800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the \"Sunnyvale\" in searchbox and press the enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 11
+                }
+              ],
+              "location": "RedfinStepDefinitions.enter_the_in_searchbox_and_press_the_enter_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 603160100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate pop up appears",
+            "match": {
+              "location": "RedfinStepDefinitions.validate_pop_up_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8734286000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "On the pop up select the entry \"https://www.redfin.com/city/19457/CA/Sunnyvale\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.redfin.com/city/19457/CA/Sunnyvale",
+                  "offset": 32
+                }
+              ],
+              "location": "RedfinStepDefinitions.on_the_pop_up_select_the_entry(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3405691500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the city Real Estate page using \"Sunnyvale Real Estate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale Real Estate",
+                  "offset": 40
+                }
+              ],
+              "location": "RedfinStepDefinitions.verify_the_city_Real_Estate_page_using(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5741925100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "assert the Search box on the top left side has \"Sunnyvale\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 48
+                }
+              ],
+              "location": "RedfinStepDefinitions.assert_the_Search_box_on_the_top_left_side_has(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16582128700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select the min price as \"25\" and max price as \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 25
+                },
+                {
+                  "val": "3",
+                  "offset": 47
+                }
+              ],
+              "location": "RedfinStepDefinitions.select_the_min_price_as_and_max_price_as(String,String)"
+            },
+            "matchedColumns": [
+              4,
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 402968500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify all the homes listed are from \"/CA/Sunnyvale/\", if no homes listed throw an errorMessage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/CA/Sunnyvale/",
+                  "offset": 38
+                }
+              ],
+              "location": "RedfinStepDefinitions.verify_all_the_homes_listed_are_from_if_no_homes_listed_throw_an_errorMessage(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Usecase \"test1\" completed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1",
+                  "offset": 9
+                }
+              ],
+              "location": "RedfinStepDefinitions.usecase_completed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18882192700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RedfinHooks.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "UseCase1",
+        "description": "",
+        "id": "redfin-application;usecase1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1030932900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RedfinHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 427400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the redfin application is launched for \"test2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 40
+                }
+              ],
+              "location": "RedfinStepDefinitions.the_redfin_application_is_launched_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26367500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the home page using homePageTitle",
+            "match": {
+              "location": "RedfinStepDefinitions.verify_the_home_page_using_homePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684006200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the \"Sunnyvale\" in searchbox and press the enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 11
+                }
+              ],
+              "location": "RedfinStepDefinitions.enter_the_in_searchbox_and_press_the_enter_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205738200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate pop up appears",
+            "match": {
+              "location": "RedfinStepDefinitions.validate_pop_up_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7990509600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "On the pop up select the entry \"https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.redfin.com/neighborhood/338644/TX/Dallas/Sunnyvale",
+                  "offset": 32
+                }
+              ],
+              "location": "RedfinStepDefinitions.on_the_pop_up_select_the_entry(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1088304000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the city Real Estate page using \"Sunnyvale Real Estate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale Real Estate",
+                  "offset": 40
+                }
+              ],
+              "location": "RedfinStepDefinitions.verify_the_city_Real_Estate_page_using(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 201771700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "assert the Search box on the top left side has \"Sunnyvale\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 48
+                }
+              ],
+              "location": "RedfinStepDefinitions.assert_the_Search_box_on_the_top_left_side_has(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16502363500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Select the min price as \"1\" and max price as \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 25
+                },
+                {
+                  "val": "6",
+                  "offset": 46
+                }
+              ],
+              "location": "RedfinStepDefinitions.select_the_min_price_as_and_max_price_as(String,String)"
+            },
+            "matchedColumns": [
+              4,
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118047700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify all the homes listed are from \"/TX/Dallas\", if no homes listed throw an errorMessage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/TX/Dallas",
+                  "offset": 38
+                }
+              ],
+              "location": "RedfinStepDefinitions.verify_all_the_homes_listed_are_from_if_no_homes_listed_throw_an_errorMessage(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 226500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Usecase \"test2\" completed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 9
+                }
+              ],
+              "location": "RedfinStepDefinitions.usecase_completed(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Redfin Application",
+    "description": "",
+    "id": "redfin-application",
+    "keyword": "Feature",
+    "uri": "Refin.feature"
+  }
+]

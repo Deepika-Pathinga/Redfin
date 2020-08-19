@@ -1,0 +1,16 @@
+Please complete the below Selenium test and share the test results
+
+Design and develop basic scenario for real estate portal redfin.com
+
+Use Case
+
+Go to https://www.redfin.com
+Enter Sunnyvale in the Search box and press the Enter Button
+Ensure a POP Up “ Did You Mean” appears
+On the pop Up select the entry “Sunnyvale, CA, USA and ensure we are navigated to Sunnyvale Real Estate page.
+On this page assert the Search box on the top left side has Sunnyvale
+Select the min price as 800 and max price as 950
+Verify all the homes listed are from Sunnyvale, CA, USA, if no homes listed throw an error saying there is no data to test.
+Parametrize this test by selecting “Sunnyvale, Dallas, TX, USA” in the did you mean pop up ,and on the search results page use the price range between 600-800.
+
+ log All critical information for reporting
