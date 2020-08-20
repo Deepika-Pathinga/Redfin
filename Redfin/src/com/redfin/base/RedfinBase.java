@@ -35,7 +35,7 @@ public class RedfinBase {
 	 */
 	public static void createReport() {
 		String fileName = new SimpleDateFormat("'Redfin_Report_'YYYYMMddHHmmss'.html'").format(new Date());
-		String path = "C:\\Users\\deepi\\eclipse-workspace\\Redfin\\target\\Reports\\" + fileName;
+		String path = "C:\\Users\\deepi\\Desktop\\TekArch\\GitHub\\Redfin\\target\\Reports\\" + fileName;
 		report = new ExtentReports(path);
 	}
 	
